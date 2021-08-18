@@ -7,7 +7,7 @@ function updeteProductNumber( product , price, isIncreasing){
         productNumber = parseFloat(productNumber) + 1;
     }
     else if(productNumber > 0){
-        productNumber =parseFloat(productNumber) - 1;
+        productNumber = parseFloat(productNumber) - 1;
     }
     productInput.value = productNumber;
     // updete total
